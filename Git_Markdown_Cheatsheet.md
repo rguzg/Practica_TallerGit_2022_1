@@ -111,3 +111,190 @@ Permite cambiarte de rama
 
 ### git merge [nombre de la rama]
 Realiza un merge entre la rama actual y la rama especificada 
+
+## Sintaxis de gitignore
+Todas las rutas que se encuentren dentro del archivo `.gitignore` son relativas al folder donde se ubique el archivo `.gitignore`
+
+### Ignorar archivos y folders
+Utiliza el nombre del archivo o folder que quieras ignorar. Por ejemplo, para ignorar el archivo **README.md**: <br>
+
+```
+README.md
+```
+
+Recuerda que debes de incluir la ruta completa del archivo. Por ejemplo, si quisieras ignorar el archivo **Contraseñas.txt** que está dentro de la carpeta **Archivos**: <br>
+```
+Archivos/Contraseñas.txt
+```
+
+### Comodines
+También puedes utilizar el comodín `*`. Este comodín indica que en esa sección puede ir cualquier carácter. Por ejemplo:
+
+- Para ignorar todos los archivos que tengan la extensión **txt**: <br>
+```
+*.txt
+```
+- Para ignorar todos los archivos que tengan el nombre **contraseñas**, sin importar su extensión: <br>
+```
+contraseñas.*
+```
+
+Para ignorar archivos dentro de todos los folders, se utiliza el comodín `**`. Por ejemplo, para ignorar los archivos **Contraseñas.txt** dentro de todas las carpetas: <br>
+```
+**/Contraseñas.txt
+```
+
+### Carácter `!`
+- Para no ignorar un archivo se utiliza el carácter `!`. Por ejemplo, para **no** ignorar el archivo **README.md**: <br>
+```
+!README.md
+```
+- Las reglas de gitignore se aplican de arriba para abajo, por ejemplo, estas reglas ignorarán **README.md**, incluso si se incluye **!README.md**: <br>
+```
+!README.md
+*.md
+```
+
+- La forma correcta de ignorar todos los archivos con extensión **.md** excepto por **README.md** es: <br>
+```
+*.md
+!README.md
+```
+
+## Sintaxis de Markdown
+
+Markdown es un lenguaje que permite darle formato a texto. Se caracteriza por ser fácil de leer y por ser utilizado para escribir la documentación de proyectos de programación
+
+### Texto normal
+
+- Sintaxis en Markdown:
+```markdown
+Texto normal
+```
+
+- Markdown renderizado: <br>
+Texto normal
+
+### Texto en negritas
+
+- Sintaxis en Markdown:
+```markdown
+**Texto en negritas**
+```
+
+- Markdown renderizado: <br>
+**Texto en negritas**
+
+### Texto en cursiva
+
+- Sintaxis en Markdown:
+```markdown
+_Texto en cursiva_
+```
+
+- Markdown renderizado: <br>
+_Texto en cursiva_
+
+### Headers
+Los headers permiten indicar las secciones y subsecciones de un documento. Existen seis niveles de headers
+
+- Sintaxis en Markdown:
+```markdown
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+```
+
+- Markdown renderizado:
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+### Imágenes
+
+- Sintaxis en Markdown:
+```markdown
+![Descripción de la imagen. Es utilizada por lectores de texto o cuando la imagen no carga](URL de la imagen)
+```
+
+- Markdown renderizado: <br>
+![Carby. Kirby fused with a car](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftechnology.thenewsupdate.co%2Fupdate-https-cdn.wccftech.com%2Fwp-content%2Fuploads%2F2022%2F02%2FWCCFkirbyandtheforgottenland2.jpg&f=1&nofb=1)
+
+### Link
+
+- Sintaxis en Markdown:
+```markdown
+[Texto del link](URL al link)
+```
+
+- Markdown renderizado: <br>
+[Trailer oficial de Half Life 3](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+### In-Line Code
+
+- Sintaxis en Markdown:
+```markdown
+`Texto que tendrá formato de código`
+```
+
+- Markdown renderizado: <br>
+`Texto que tendrá formato de código`
+
+### Code Block
+
+- Sintaxis en Markdown:
+```markdown
+`‎`‎`‎Lenguaje de programación que se está utilizando
+// Código de JavaScript
+let message = "Hello World!";
+console.log("Hello World!");
+`‎`‎`‎
+```
+
+- Markdown renderizado:
+```JavaScript
+// Código de JavaScript
+let message = "Hello World!";
+console.log("Hello World!");
+```
+
+### Listas no numeradas
+
+- Sintaxis en Markdown:
+```markdown
+- Manzana 🍎
+    - Manzana verde 🍏
+- Pera 🍐
+- Plátano 🍌
+```
+
+- Markdown renderizado: <br>
+- Manzana 🍎
+    - Manzana verde 🍏
+- Pera 🍐
+- Plátano 🍌
+
+
+#### Listas numeradas
+
+- Sintaxis en Markdown:
+```markdown
+1. Polygondwanaland
+1. Gumboot Soup
+1. Flying Microtonal Banana
+1. Butterfly 3000
+    1. Butterfly 3001
+```
+
+- Markdown renderizado: <br>
+1. Polygondwanaland
+1. Gumboot Soup
+1. Flying Microtonal Banana
+1. Butterfly 3000
+    1. Butterfly 3001
