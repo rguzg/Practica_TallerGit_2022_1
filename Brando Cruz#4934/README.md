@@ -14,6 +14,9 @@ Veracruz, Mexico
 # Mi historia
 Llegué a Querétaro hace aproximadamente 3.5 años, ingrese a la prepa y comence a estudiar programación, de ahí me di cuenta que la programación es algo que me gusta, me estresa pero me gusta. logre terminar la prepa a pesar de muchas complicaciones y posteriormente ingrese a la universidad, debo decir que no creía que podía quedar, sin embargo así fue y aquí estoy. 
 
+# Hobbies y gustos 
+En realidad soy muy simple, me gusta escuchar musica, el voleibol es uno de mis deportes favoritos, me gusta tener buenas notas aunque no siempre lo logro pero se hace el intento. me gusta mucho el estilo de londres, como hobbies puede decir que me gustan mucho los juegos de mesa, menos los rompecabezas.
+
 # Mascota
 ![Esta es mis mascota](imagen/perro.jpg)
 
