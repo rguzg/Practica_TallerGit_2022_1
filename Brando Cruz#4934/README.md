@@ -8,6 +8,10 @@ _Facultad de informatica_
 
 # Mi facultad
 ![Esta es mi facultad](imagen/UAQFIF.jpg)
+
+# Link de la pagina de mi universidad 
+[UAQ Universidad Autónoma de Querétaro](https://www.uaq.mx/)
+
 # De donde soy
 Veracruz, Mexico
 
