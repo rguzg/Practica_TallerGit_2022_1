@@ -7,7 +7,7 @@ Universidad autónoma de Querétaro
 _Facultad de informatica_
 
 # Mi facultad
-![Esta es mi facultad](C:\Users\Selecto\OneDrive\Escritorio\UAQFIF.jpg)
+![Esta es mi facultad](Imagen/UAQFIF.jpg)
 
 # Link de la pagina de mi universidad 
 [UAQ Universidad Autónoma de Querétaro](https://www.uaq.mx/)
@@ -22,7 +22,7 @@ Llegué a Querétaro hace aproximadamente 3.5 años, ingrese a la prepa y comenc
 En realidad soy muy simple, me gusta escuchar musica, el voleibol es uno de mis deportes favoritos, me gusta tener buenas notas aunque no siempre lo logro pero se hace el intento. me gusta mucho el estilo de londres, como hobbies puede decir que me gustan mucho los juegos de mesa, menos los rompecabezas.
 
 # Mascota
-![Esta es mis mascota](C:\Users\Selecto\OneDrive\Escritorio\perro.jpg)
+![Esta es mis mascota](Imagen/perro.jpg)
 
 # Codigo 
 `git branch` 
